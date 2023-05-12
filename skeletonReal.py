@@ -35,7 +35,7 @@ class DetermineColor:
                 for j in range(round(y*start),round(y*end)):
                    
                     
-                    num = 30
+                    num = 15
                     b = image[i][j][0]//num*num
                     g = image[i][j][1]//num*num
                     r = image[i][j][2]//num*num
